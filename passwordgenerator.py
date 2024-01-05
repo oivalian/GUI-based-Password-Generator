@@ -11,10 +11,10 @@ chars = st.ascii_letters + st.digits + st.punctuation
 
 def generator():
     try:
-        password = ''.join(r.choice(chars) for _ in range(password_length.get()))   # This will concatenate the loop.
+        password = ''.join(r.choice(chars) for _ in range(password_length.get()))
         output_string.set(password[:30])
-        output_button.pack(side='bottom')     # packs copy button and makes visible
-    except tk.TclError:     # error if value not int return false
+        output_button.pack(side='bottom')
+    except tk.TclError:
         return False
 
 

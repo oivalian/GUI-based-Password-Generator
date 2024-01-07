@@ -59,7 +59,7 @@ output_frame = ttk.Frame(master=root)
 output_string = tk.StringVar()
 output_label = ttk.Label(master=output_frame, text='Output', font='Helvetica 16', textvariable=output_string)
 output_button = ttk.Button(master=output_frame, text='Copy to Clipboard', command=copy_to_clipboard, width=30)
-output_button.pack_forget()     # makes button invisible initially
+output_button.pack_forget()
 output_label.pack(pady=20, padx=10)
 output_frame.pack(pady=10, padx=10)
 

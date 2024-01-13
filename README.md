@@ -5,7 +5,7 @@ This is a small project I created in January 2024 using Python, Tkinter and Ttkb
 
 ### Creating the executable
 1) Ensure you have the prerequiste packages installed (pyperclip, tkinter, ttkbootstrap, pyinstaller)
-2) ```import os```
+2) ```import os```, ```import sys```
 3) Access the ```MEIPASS.py``` file. Replace the lines in the original .py file.
 4) Ensure the .ico file is saved in the root dir
 5) Run the following command:

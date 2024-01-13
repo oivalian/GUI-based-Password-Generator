@@ -1,14 +1,23 @@
 # Password Generator
 
-This is a small project I created in January 2024 using Python, Tkinter and Ttkbootstrap.
- do plan to add some other features eventually, maybe even a set of combined tools.
+Generates a random string of chars from a standard keyboard based on user input (Max 30 chars)
+
+## Required libraries
+Password Generator uses the following libraries:
+`random`
+`string`
+`tkinter`
+`ttkbootstrap`
+`pyperclip`
+`pillow`
+`sys`
+`os`
 
 ### Creating the executable
-1) Ensure you have the prerequiste packages installed (pyperclip, tkinter, ttkbootstrap, pyinstaller)
-2) ```import os```, ```import sys```
-3) Access the ```MEIPASS.py``` file. Replace the lines in the original .py file.
-4) Ensure the .ico file is saved in the root dir
-5) Run the following command:
+1) Ensure you have the prerequisite libraries imported
+2) Access the ```MEIPASS.py``` file. Replace the lines in the original .py file
+3) Ensure the .ico file is saved in the root dir
+4) Run the following command:
    
 ``` pyinstaller -w --onefile --icon=key.ico --add-data=key.ico:. passwordgenerator.py ```
 

@@ -10,14 +10,14 @@ Password Generator uses the following libraries:
 `ttkbootstrap`
 `pyperclip`
 `pillow`
-`sys`
 `os`
 
 ### Creating the executable
 1) Ensure you have the prerequisite libraries imported
-2) Access the ```MEIPASS.py``` file. Replace the lines in the original .py file
-3) Ensure the .ico file is saved in the root dir
-4) Run the following command:
+2) `import sys`
+3) Access the ```MEIPASS.py``` file. Replace the lines in the original .py file
+4) Ensure the .ico file is saved in the root dir
+5) Run the following command:
    
 ``` pyinstaller -w --onefile --icon=key.ico --add-data=key.ico:. passwordgenerator.py ```
 

@@ -19,7 +19,7 @@ Password Generator uses the following libraries:
 | ![image](https://github.com/user-attachments/assets/dd74f5ef-8af1-4331-8050-267f0145a526) | ![image](https://github.com/user-attachments/assets/524c67c7-a178-48d4-a863-b20012792b52)  |
 
 > [!IMPORTANT]
-> A strong password should be over 16 characters in length and avoid common phrases or words. That is why I use a complex randominzed key.
+> A strong password should be over 16 characters in length and avoid common phrases or words. That is why I use a complex randomised key.
 
 ### Creating the executable
 1) Ensure you have the prerequisite libraries imported

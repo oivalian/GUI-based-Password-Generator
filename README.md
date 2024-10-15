@@ -1,6 +1,6 @@
 # Password Generator
 
-Generates a random string of chars from a standard keyboard based on user input (Max 30 chars)
+ This generator uses the random and string library to generate a defined length of random letters, digits and symbols.
 
 ## Required libraries
 Password Generator uses the following libraries:
@@ -11,6 +11,15 @@ Password Generator uses the following libraries:
 `pyperclip`
 `pillow`
 `os`
+
+## The Application
+
+| Before Generation  | Upon Generation |
+| ------------- | ------------- |
+| ![image](https://github.com/user-attachments/assets/dd74f5ef-8af1-4331-8050-267f0145a526) | ![image](https://github.com/user-attachments/assets/524c67c7-a178-48d4-a863-b20012792b52)  |
+
+> [!IMPORTANT]
+> A strong password should be over 16 characters in length and avoid common phrases or words. That is why I use a complex randominzed key.
 
 ### Creating the executable
 1) Ensure you have the prerequisite libraries imported
